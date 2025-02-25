@@ -1,12 +1,14 @@
 .odd-num{
     /* using HSL to set color looked it up */
     background-color: hsl(352, 73%, 65%);
-    font-family: Verdana, Sans, sans-serif ;
+    font-family: Verdana, "DejaVu Sans", sans-serif ;
 }
 .changefs{
    font-size: 24px; 
 }
 
+/* made a class to changed the shared font change for 3 and 4. Instead of
+writing it twice for each */
 #second{
     /* using RGB to set the color */
     color: rgb(0, 38, 255);
