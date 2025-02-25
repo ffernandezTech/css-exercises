@@ -1,0 +1,20 @@
+.odd-num{
+    /* using HSL to set color looked it up */
+    background-color: hsl(352, 73%, 65%);
+    font-family: Verdana, Sans, sans-serif ;
+}
+.changefs{
+   font-size: 24px; 
+}
+
+#second{
+    /* using RGB to set the color */
+    color: rgb(0, 38, 255);
+    font-size: 36px;
+}
+#changebg-f{
+    /* using hex to set the color */
+    background-color: #00d600;
+    font-weight: bold;
+}
+
