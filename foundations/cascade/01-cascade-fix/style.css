@@ -8,14 +8,18 @@ body {
   font-weight: 800;
 }
 
+/* moved .para above .small-para so
+.small-para css comes later and take affect */
+.para {
+  font-size: 22px;
+}
+
 .small-para {
   font-size: 14px;
   font-weight: 800;
 }
 
-.para {
-  font-size: 22px;
-}
+
 
 .button.confirm {
   background: green;
