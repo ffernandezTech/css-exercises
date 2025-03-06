@@ -5,6 +5,8 @@ body {
 img {
   width: 100px;
   height: 100px;
+  margin: 0;
+  padding: 0;
 }
 
 .title {
@@ -23,4 +25,30 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+
+/* solutions */
+
+.main-body{
+  display: flex;
+}
+
+.barberry,
+.chilli,
+.pepper,
+.saffron{
+  display: flex;
+  flex-direction: column;
+  
+  /* border: black solid 5px; */
+}
+
+div img{
+  align-self: center;
+}
+
+
+.title{
+  display: flex;
+  justify-content: center;
 }
