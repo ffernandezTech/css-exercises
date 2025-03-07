@@ -3,6 +3,7 @@
 body {
   height: 100vh;
   margin: 0;
+  
   overflow: hidden;
   font-family: Roboto, sans-serif;
 }
@@ -23,4 +24,72 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+ul{
+  padding: 5px;
+  
+}
+li{
+
+  list-style: none;
+  display: flex;
+
+  
+}
+a{
+  text-decoration: none;
+  color: gray;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  
+}
+
+
+.header,
+.footer{
+  /* border: black solid 5px; */
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex: 0;
+  
+}
+.footer{
+  background-color: #eeeeee;
+  justify-content: flex-end;
+}
+.content-1{
+flex: 1;
+border: red solid 2px;
+height: 100vh;
+justify-content: flex-end;
+align-items: center;
+
+
+}
+
+.content{
+  flex: 0;
+border: purple solid 2px;
+justify-content: center;
+align-items: center;
+}
+
+.left-links{
+  display: flex;
+  gap: 10px;
+  margin-right: auto;
+
+}
+
+
+.right-links{
+  display: flex;
+  gap: 10px;
+  margin-left: auto;
+
+ 
 }
