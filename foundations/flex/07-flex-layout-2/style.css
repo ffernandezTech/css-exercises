@@ -27,3 +27,58 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+
+/* attempt at changing */
+body{
+  display: flex;
+  flex-direction: column;
+}
+.header{
+  flex: 0;
+  font-size: 32px;
+  font-weight: 900;
+  padding: 16px;
+  
+
+}
+.footer{
+  flex: 0;
+  text-align: center;
+}
+
+.container{
+  display: flex;
+  flex: auto;
+}
+
+.info{
+  width: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  flex: auto;
+  justify-content: space-evenly;
+  padding: 48px;
+  gap: 20px;
+
+}
+
+.info>div{
+  width: 300px;
+  height: auto;
+  padding: 10px;
+}
+.sidebar{
+  min-width: 300px;
+  flex: 0;
+  padding: 16px;
+}
+a{
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+  padding: 0;
+}
